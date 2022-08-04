@@ -7,9 +7,9 @@ edition = "2021"
 codec = { package = 'parity-scale-codec', version = "2.0.0", default-features = false,  features = ['derive']}
 hex = { version = "0.4.3", default-features = false, features = ["alloc"] }
 
-sp-core = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-runtime = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-std = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
+sp-core = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", rev ="7c6342047c992b6f3fa917d0d0448eb7e89afa6c" }
+sp-runtime = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", rev ="7c6342047c992b6f3fa917d0d0448eb7e89afa6c" }
+sp-std = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", rev ="7c6342047c992b6f3fa917d0d0448eb7e89afa6c" }
 
 [features]
 default = ["std"]

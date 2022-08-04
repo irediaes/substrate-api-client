@@ -18,10 +18,10 @@ serde_json = { version = "1.0" }
 ac-primitives = { path = "../primitives" }
 
 # substrate deps
-frame-support = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master" }
-frame-system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-core = { version = "5.0.0", git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-runtime = { version = "5.0.0", git = "https://github.com/paritytech/substrate.git", branch = "master" }
+frame-support = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev ="7c6342047c992b6f3fa917d0d0448eb7e89afa6c" }
+frame-system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev ="7c6342047c992b6f3fa917d0d0448eb7e89afa6c" }
+sp-core = { version = "5.0.0", git = "https://github.com/paritytech/substrate.git", rev ="7c6342047c992b6f3fa917d0d0448eb7e89afa6c" }
+sp-runtime = { version = "5.0.0", git = "https://github.com/paritytech/substrate.git", rev ="7c6342047c992b6f3fa917d0d0448eb7e89afa6c" }
 
 # new parity repo
-frame-metadata = { version = "14.0.0", git = "https://github.com/paritytech/frame-metadata.git", branch = "main", features = ["v14"] }
+frame-metadata = { version = "14.0.0", git = "https://github.com/paritytech/frame-metadata.git", tag = "v14.0.0", features = ["v14"] }
